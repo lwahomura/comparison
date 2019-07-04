@@ -5,7 +5,6 @@ import (
 	"sort"
 	"github.com/lwahomura/comparison/dictionary"
 	"github.com/lwahomura/comparison/pkg"
-	"fmt"
 	"github.com/lwahomura/comparison/transliteration"
 )
 
@@ -46,11 +45,9 @@ func Compare(first, second string) bool {
 	var results []float32
 	db := dictionary.GetDatabases()
 	if pkg.FindInArrays(db.GetEnToRusTranslation(first), db.GetEnToRusTranslation(second), first, second) {
-		fmt.Println("etr")
 		results = append(results, 1)
 	}
 	if pkg.FindInArrays(db.GetRusToEnTranslation(first), db.GetRusToEnTranslation(second), first, second) {
-		fmt.Println("rte")
 		results = append(results, 1)
 	}
 	firstEnT := transliteration.RusToEn(first)
