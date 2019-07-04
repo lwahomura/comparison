@@ -3,7 +3,7 @@ package transliteration
 import (
 	"strings"
 	"regexp"
-	"lwahomura/comparison/pkg"
+	"github.com/lwahomura/comparison/pkg"
 )
 
 func EnToRus(target string) string {

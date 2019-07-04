@@ -3,7 +3,7 @@ package fuzzy_methods
 import (
 	"testing"
 	"fmt"
-	"lwahomura/comparison/pkg"
+	"github.com/lwahomura/comparison/pkg"
 )
 
 func Test_getCodes1(t *testing.T) {

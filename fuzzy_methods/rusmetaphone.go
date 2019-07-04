@@ -4,7 +4,7 @@ import (
 	"strings"
 	"regexp"
 	"fmt"
-	"lwahomura/comparison/pkg"
+	"github.com/lwahomura/comparison/pkg"
 )
 
 func dropDoubles(token string) string {

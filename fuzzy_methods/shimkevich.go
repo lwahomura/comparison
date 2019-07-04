@@ -1,7 +1,7 @@
 package fuzzy_methods
 
 import (
-	"lwahomura/comparison/pkg"
+	"github.com/lwahomura/comparison/pkg"
 )
 
 type Comparator struct {

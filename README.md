@@ -11,7 +11,8 @@ comparison allows you to compare two strings, checking if they are similar or no
 ````
 git clone https://github.com/lwahomura/comparison.git
 ````
-Also download bases from https://cloud.mail.ru/public/5DXP/LapZZZniW and add them to dictionary/pkg directory
+Also download bases from https://cloud.mail.ru/public/5DXP/LapZZZniW and add them to ./dictionary/pkg directory 
+in your project
 
 ## Index
 

@@ -5,7 +5,7 @@ import (
 	"bytes"
 	"fmt"
 	"regexp"
-	"lwahomura/comparison/pkg"
+	"github.com/lwahomura/comparison/pkg"
 )
 
 func dedup(token string) string {

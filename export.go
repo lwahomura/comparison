@@ -1,12 +1,12 @@
 package comparison
 
 import (
-	"lwahomura/comparison/fuzzy_methods"
+	"github.com/lwahomura/comparison/fuzzy_methods"
 	"sort"
-	"lwahomura/comparison/dictionary"
-	"lwahomura/comparison/pkg"
+	"github.com/lwahomura/comparison/dictionary"
+	"github.com/lwahomura/comparison/pkg"
 	"fmt"
-	"lwahomura/comparison/transliteration"
+	"github.com/lwahomura/comparison/transliteration"
 )
 
 // compMethods returns the highest returned similarity ratio (gotten from comparison methods).

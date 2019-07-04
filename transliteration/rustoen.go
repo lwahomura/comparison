@@ -2,7 +2,7 @@ package transliteration
 
 import (
 	"regexp"
-	"lwahomura/comparison/pkg"
+	"github.com/lwahomura/comparison/pkg"
 )
 
 // RusToEn returns the target string transliterated in English.
